@@ -1,0 +1,15 @@
+C:\Users\Alunos\OneDrive\Documentos\GitTheo\ParaMeuCurriculo\RPGTXT\RPGTXT\bin\Debug\net8.0\RPGTXT.exe
+C:\Users\Alunos\OneDrive\Documentos\GitTheo\ParaMeuCurriculo\RPGTXT\RPGTXT\bin\Debug\net8.0\RPGTXT.deps.json
+C:\Users\Alunos\OneDrive\Documentos\GitTheo\ParaMeuCurriculo\RPGTXT\RPGTXT\bin\Debug\net8.0\RPGTXT.runtimeconfig.json
+C:\Users\Alunos\OneDrive\Documentos\GitTheo\ParaMeuCurriculo\RPGTXT\RPGTXT\bin\Debug\net8.0\RPGTXT.dll
+C:\Users\Alunos\OneDrive\Documentos\GitTheo\ParaMeuCurriculo\RPGTXT\RPGTXT\bin\Debug\net8.0\RPGTXT.pdb
+C:\Users\Alunos\OneDrive\Documentos\GitTheo\ParaMeuCurriculo\RPGTXT\RPGTXT\obj\Debug\net8.0\RPGTXT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alunos\OneDrive\Documentos\GitTheo\ParaMeuCurriculo\RPGTXT\RPGTXT\obj\Debug\net8.0\RPGTXT.AssemblyInfoInputs.cache
+C:\Users\Alunos\OneDrive\Documentos\GitTheo\ParaMeuCurriculo\RPGTXT\RPGTXT\obj\Debug\net8.0\RPGTXT.AssemblyInfo.cs
+C:\Users\Alunos\OneDrive\Documentos\GitTheo\ParaMeuCurriculo\RPGTXT\RPGTXT\obj\Debug\net8.0\RPGTXT.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\OneDrive\Documentos\GitTheo\ParaMeuCurriculo\RPGTXT\RPGTXT\obj\Debug\net8.0\RPGTXT.sourcelink.json
+C:\Users\Alunos\OneDrive\Documentos\GitTheo\ParaMeuCurriculo\RPGTXT\RPGTXT\obj\Debug\net8.0\RPGTXT.dll
+C:\Users\Alunos\OneDrive\Documentos\GitTheo\ParaMeuCurriculo\RPGTXT\RPGTXT\obj\Debug\net8.0\refint\RPGTXT.dll
+C:\Users\Alunos\OneDrive\Documentos\GitTheo\ParaMeuCurriculo\RPGTXT\RPGTXT\obj\Debug\net8.0\RPGTXT.pdb
+C:\Users\Alunos\OneDrive\Documentos\GitTheo\ParaMeuCurriculo\RPGTXT\RPGTXT\obj\Debug\net8.0\RPGTXT.genruntimeconfig.cache
+C:\Users\Alunos\OneDrive\Documentos\GitTheo\ParaMeuCurriculo\RPGTXT\RPGTXT\obj\Debug\net8.0\ref\RPGTXT.dll
