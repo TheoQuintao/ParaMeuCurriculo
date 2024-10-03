@@ -141,8 +141,10 @@ switch(oringemEscolhida)
     break;
     default:
         Console.Write("Escreva o nome corretamente: ");
-        goto selecaodeorigem;
+    goto selecaodeorigem;
 }
+Thread.Sleep(2000);
+Console.Clear();
 Console.ResetColor();
 
 //seleção de classe
@@ -180,26 +182,155 @@ switch(ClasseEscolhida)
     break;
     default:
         Console.Write("Escreva o nome corretamente: ");
-        goto selecaodeclasse;
+    goto selecaodeclasse;
 }
+Thread.Sleep(2000);
+Console.Clear();
 
 //Definição dos pontos de atributos
 
+Console.WriteLine("Agora escolheremos seus pontos de atributos");
+Thread.Sleep(5000);
+resetarpontos:
 int Força = 1,
     Agilidade = 1,
     Vigor = 1,
     Presença = 1,
     Intelecto = 1;
-
-Console.WriteLine("Agora escolheremos seus pontos de atributos");
-for(int pontos = 4;pontos >= 0;pontos--)
-{
+bool reduzir = false,
+    jareduziu = true;
+for(int pontos = 3;pontos >= 0;pontos--)
+{   
+    selecaodepontos:
+    Console.Clear();
     Console.WriteLine($"Força = {Força}");
     Console.WriteLine($"Agilidade = {Agilidade}");
     Console.WriteLine($"Vigor = {Vigor}");
     Console.WriteLine($"Presença = {Presença}");
     Console.WriteLine($"Intelecto = {Intelecto}");
-    Console.Write("Deseja adicionar 1 ponto a qual atributo? ");
+    Console.WriteLine($"\nVocê possui {pontos+1}");
+    
+    if(reduzir==false)
+    {
+        
+        Console.Write("Você pode reduzir 1 valor para ganhar 1 ponto, Deseja fazer isso? (Sim) (Não) ");
+        desejareduzir:
+        string reduzirp = Console.ReadLine().ToLower();
+        switch(reduzirp)
+        {
+            case "sim":
+                Console.Write("Deseja reduzir qual atributo? ");
+                pontos+=2;
+                reduzir=true;
+            break;
+            case "não":
+                Console.Write("Deseja adicionar 1 ponto a qual atributo? ");
+            break;
+            default:
+                Console.Write("Escreva o corretamente: ");
+            goto desejareduzir;
+        }
+    }
+    else
+    {
+        Console.Write("Deseja adicionar 1 ponto a qual atributo? ");
+    }
+    string somaponto = Console.ReadLine();
+    switch(somaponto)
+    {
+        case "Força":
+            if(Força==3)
+            {
+                Console.Write("O maximo de pontos que pode ter em 1 atributo e 3");
+                goto selecaodepontos;
+            }
+            else if(jareduziu==true & reduzir==true)
+            {
+                Força--;
+                jareduziu=false;
+            }
+            else
+                Força++;
+        break;
+        case "Agilidade":
+            if(Agilidade==3)
+                {
+                    Console.Write("O maximo de pontos que pode ter em 1 atributo e 3");
+                    goto selecaodepontos;
+                }
+                else if(jareduziu==true & reduzir==true)
+                {
+                    Agilidade--;
+                    jareduziu=false;
+                }
+                else
+                Agilidade++;
+        break;
+        case "Vigor":
+            if(Vigor==3)
+                {
+                    Console.Write("O maximo de pontos que pode ter em 1 atributo e 3");
+                    goto selecaodepontos;
+                }
+                else if(jareduziu==true & reduzir==true)
+                {
+                    Vigor--;
+                    jareduziu=false;
+                }
+                else
+                Vigor++;
+        break;
+        case "Presença":
+            if(Presença==3)
+                {
+                    Console.Write("O maximo de pontos que pode ter em 1 atributo e 3");
+                    goto selecaodepontos;
+                }
+                else if(jareduziu==true & reduzir==true)
+                {
+                    Presença--;
+                    jareduziu=false;
+                }
+                else
+                Presença++;
+        break;
+        case "Intelecto":
+            if(Intelecto==3)
+                {
+                    Console.Write("O maximo de pontos que pode ter em 1 atributo e 3");
+                    goto selecaodepontos;
+                }
+                else if(jareduziu==true & reduzir==true)
+                {
+                    Intelecto--;
+                    jareduziu=false;
+                }
+                else
+                Intelecto++;
+        break;
+        default:
+            Console.Write("Escreva o nome corretamente: ");
+        goto selecaodepontos;
+    }
 }
-
+Console.Clear();
+Console.WriteLine("Seus pontos são:\n");
+Console.WriteLine($"Força = {Força}");
+Console.WriteLine($"Agilidade = {Agilidade}");
+Console.WriteLine($"Vigor = {Vigor}");
+Console.WriteLine($"Presença = {Presença}");
+Console.WriteLine($"Intelecto = {Intelecto}");
+Console.Write("\nDeseja resetar os pontos? (Sim) (Não) ");
+resetarpont:
+string resetarponto = Console.ReadLine().ToLower();
+switch(resetarponto)
+{
+    case "sim":
+    goto resetarpontos;
+    case "não":
+    break;
+    default:
+        Console.Write("Escreva corretamente: ");
+    goto resetarpont;
+}
 //Criação da ficha por NEX
