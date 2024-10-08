@@ -1,4 +1,4 @@
-﻿Console.Clear();
+Console.Clear();
 
 int largura = 39;
 Console.ForegroundColor = ConsoleColor.DarkGreen;
@@ -167,18 +167,19 @@ Console.WriteLine(classes[2]);
 Console.WriteLine("-".PadLeft(largurac, '-'));
 Console.ResetColor();
 Console.Write("\nEscreva o nome da classe escolhida: ");
+int classe;
 selecaodeclasse:
 string ClasseEscolhida = Console.ReadLine();
 switch(ClasseEscolhida)
 {
     case "Combatente":
-
+        classe = 0;
     break;
     case "Especialista":
-
+        classe = 1;
     break;
     case "Ocultista":
-
+        classe = 2;
     break;
     default:
         Console.Write("Escreva o nome corretamente: ");
@@ -203,12 +204,18 @@ for(int pontos = 3;pontos >= 0;pontos--)
 {   
     selecaodepontos:
     Console.Clear();
+    Console.ForegroundColor = ConsoleColor.Red;
     Console.WriteLine($"Força = {Força}");
+    Console.ForegroundColor = ConsoleColor.Blue;
     Console.WriteLine($"Agilidade = {Agilidade}");
+    Console.ForegroundColor = ConsoleColor.DarkRed;
     Console.WriteLine($"Vigor = {Vigor}");
+    Console.ForegroundColor = ConsoleColor.Black;
     Console.WriteLine($"Presença = {Presença}");
+    Console.ForegroundColor = ConsoleColor.Yellow;
     Console.WriteLine($"Intelecto = {Intelecto}");
-    Console.WriteLine($"\nVocê possui {pontos+1}");
+    Console.ResetColor();
+    Console.WriteLine($"\nVocê possui {pontos+1} pontos para gastar");
     
     if(reduzir==false)
     {
@@ -314,12 +321,17 @@ for(int pontos = 3;pontos >= 0;pontos--)
     }
 }
 Console.Clear();
-Console.WriteLine("Seus pontos são:\n");
+Console.ForegroundColor = ConsoleColor.Red;    
 Console.WriteLine($"Força = {Força}");
+Console.ForegroundColor = ConsoleColor.Blue;
 Console.WriteLine($"Agilidade = {Agilidade}");
-Console.WriteLine($"Vigor = {Vigor}");
-Console.WriteLine($"Presença = {Presença}");
+Console.ForegroundColor = ConsoleColor.DarkRed;    
+Console.WriteLine($"Vigor = {Vigor}");    
+Console.ForegroundColor = ConsoleColor.Black;
+Console.WriteLine($"Presença = {Presença}");    
+Console.ForegroundColor = ConsoleColor.Yellow;    
 Console.WriteLine($"Intelecto = {Intelecto}");
+Console.ResetColor();
 Console.Write("\nDeseja resetar os pontos? (Sim) (Não) ");
 resetarpont:
 string resetarponto = Console.ReadLine().ToLower();
@@ -333,4 +345,36 @@ switch(resetarponto)
         Console.Write("Escreva corretamente: ");
     goto resetarpont;
 }
+//Claculando estatistacas
+int[] VigorDeClasse = {20,16,12},
+    PresençaDeClasse = {2,3,4},
+    sanidade = {12,16,20};
+int Vida = Vigor+VigorDeClasse[classe],
+    PontosDePresença = Presença+PresençaDeClasse[classe];
+
+// if(oringemEscolhida == "Cultista Arrependido")
+// {
+//     sanidade[classe]/=2;
+// }
+
+int sanidadevdd = sanidade[classe];
 //Criação da ficha por NEX
+coneme:
+Console.Clear();
+Console.Write("Escreva o nome do sue presonagem: ");
+string nome = Console.ReadLine();
+Console.Clear();
+Console.Write($"O seu nome e: {nome} \n\nDeseja confirmar esse nome? (Sim)(Não) ");
+conome:
+string confirmarnome = Console.ReadLine().ToLower();
+switch(confirmarnome)
+{
+    case "sim":
+    break;
+    case "não":
+    goto coneme;
+    default:
+    goto conome;
+}  
+
+Console.Write($"Nome:{nome} NEX: 5% \n\nOrigem: {oringemEscolhida}\nClasse: {ClasseEscolhida} \nVida: {Vida}\nPontos de esforço: {PontosDePresença}\nSanidade: {sanidadevdd}");
