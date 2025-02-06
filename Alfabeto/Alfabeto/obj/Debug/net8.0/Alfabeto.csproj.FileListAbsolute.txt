@@ -1,0 +1,15 @@
+c:\Users\Alunos\Documents\GitTheo\ParaMeuCurriculo\Alfabeto\Alfabeto\bin\Debug\net8.0\Alfabeto.exe
+C:\Users\Alunos\Documents\GitTheo\ParaMeuCurriculo\Alfabeto\Alfabeto\bin\Debug\net8.0\Alfabeto.deps.json
+C:\Users\Alunos\Documents\GitTheo\ParaMeuCurriculo\Alfabeto\Alfabeto\bin\Debug\net8.0\Alfabeto.runtimeconfig.json
+c:\Users\Alunos\Documents\GitTheo\ParaMeuCurriculo\Alfabeto\Alfabeto\bin\Debug\net8.0\Alfabeto.dll
+c:\Users\Alunos\Documents\GitTheo\ParaMeuCurriculo\Alfabeto\Alfabeto\bin\Debug\net8.0\Alfabeto.pdb
+c:\Users\Alunos\Documents\GitTheo\ParaMeuCurriculo\Alfabeto\Alfabeto\obj\Debug\net8.0\Alfabeto.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Alunos\Documents\GitTheo\ParaMeuCurriculo\Alfabeto\Alfabeto\obj\Debug\net8.0\Alfabeto.AssemblyInfoInputs.cache
+c:\Users\Alunos\Documents\GitTheo\ParaMeuCurriculo\Alfabeto\Alfabeto\obj\Debug\net8.0\Alfabeto.AssemblyInfo.cs
+c:\Users\Alunos\Documents\GitTheo\ParaMeuCurriculo\Alfabeto\Alfabeto\obj\Debug\net8.0\Alfabeto.csproj.CoreCompileInputs.cache
+c:\Users\Alunos\Documents\GitTheo\ParaMeuCurriculo\Alfabeto\Alfabeto\obj\Debug\net8.0\Alfabeto.sourcelink.json
+c:\Users\Alunos\Documents\GitTheo\ParaMeuCurriculo\Alfabeto\Alfabeto\obj\Debug\net8.0\Alfabeto.dll
+c:\Users\Alunos\Documents\GitTheo\ParaMeuCurriculo\Alfabeto\Alfabeto\obj\Debug\net8.0\refint\Alfabeto.dll
+c:\Users\Alunos\Documents\GitTheo\ParaMeuCurriculo\Alfabeto\Alfabeto\obj\Debug\net8.0\Alfabeto.pdb
+C:\Users\Alunos\Documents\GitTheo\ParaMeuCurriculo\Alfabeto\Alfabeto\obj\Debug\net8.0\Alfabeto.genruntimeconfig.cache
+C:\Users\Alunos\Documents\GitTheo\ParaMeuCurriculo\Alfabeto\Alfabeto\obj\Debug\net8.0\ref\Alfabeto.dll
