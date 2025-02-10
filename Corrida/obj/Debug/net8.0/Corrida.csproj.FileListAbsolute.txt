@@ -1,0 +1,15 @@
+c:\Users\Alunos\OneDrive\Documentos\GitTheo\ParaMeuCurriculo\Corrida\bin\Debug\net8.0\Corrida.exe
+C:\Users\Alunos\OneDrive\Documentos\GitTheo\ParaMeuCurriculo\Corrida\bin\Debug\net8.0\Corrida.deps.json
+C:\Users\Alunos\OneDrive\Documentos\GitTheo\ParaMeuCurriculo\Corrida\bin\Debug\net8.0\Corrida.runtimeconfig.json
+c:\Users\Alunos\OneDrive\Documentos\GitTheo\ParaMeuCurriculo\Corrida\bin\Debug\net8.0\Corrida.dll
+c:\Users\Alunos\OneDrive\Documentos\GitTheo\ParaMeuCurriculo\Corrida\bin\Debug\net8.0\Corrida.pdb
+c:\Users\Alunos\OneDrive\Documentos\GitTheo\ParaMeuCurriculo\Corrida\obj\Debug\net8.0\Corrida.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Alunos\OneDrive\Documentos\GitTheo\ParaMeuCurriculo\Corrida\obj\Debug\net8.0\Corrida.AssemblyInfoInputs.cache
+c:\Users\Alunos\OneDrive\Documentos\GitTheo\ParaMeuCurriculo\Corrida\obj\Debug\net8.0\Corrida.AssemblyInfo.cs
+c:\Users\Alunos\OneDrive\Documentos\GitTheo\ParaMeuCurriculo\Corrida\obj\Debug\net8.0\Corrida.csproj.CoreCompileInputs.cache
+c:\Users\Alunos\OneDrive\Documentos\GitTheo\ParaMeuCurriculo\Corrida\obj\Debug\net8.0\Corrida.sourcelink.json
+c:\Users\Alunos\OneDrive\Documentos\GitTheo\ParaMeuCurriculo\Corrida\obj\Debug\net8.0\Corrida.dll
+c:\Users\Alunos\OneDrive\Documentos\GitTheo\ParaMeuCurriculo\Corrida\obj\Debug\net8.0\refint\Corrida.dll
+c:\Users\Alunos\OneDrive\Documentos\GitTheo\ParaMeuCurriculo\Corrida\obj\Debug\net8.0\Corrida.pdb
+C:\Users\Alunos\OneDrive\Documentos\GitTheo\ParaMeuCurriculo\Corrida\obj\Debug\net8.0\Corrida.genruntimeconfig.cache
+C:\Users\Alunos\OneDrive\Documentos\GitTheo\ParaMeuCurriculo\Corrida\obj\Debug\net8.0\ref\Corrida.dll
