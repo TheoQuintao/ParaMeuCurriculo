@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Corrida")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6503660c16ab79c6a1a8438fb813ef5bb288bbd0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b7918f236f7fa1d3a3edd0c5622c33b127c864e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Corrida")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Corrida")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

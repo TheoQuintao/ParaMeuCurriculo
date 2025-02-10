@@ -2,8 +2,14 @@ namespace blibio
 {
     class Corrida
     {
+        public static void VerificarVitoria(ref List<char> jogador, int Valor)
+        {
+            
+        }
         public static void Andar(
-            ref List<Char> Jogador, int Valor1)
+            ref List<Char> Jogador, 
+            int Valor1,
+            int Valor2)
         {
             int posiçãoDoCarro = Jogador.IndexOf('>');
             try
@@ -12,8 +18,9 @@ namespace blibio
                 Jogador[posiçãoDoCarro] = '-';
             }
             catch{
-                Console.WriteLine("Você venceu!!!");
-                
+                Jogador[Valor2] = '>';
+                Jogador[posiçãoDoCarro] = '-';
+                return;
             }
         }
         public static void TamanhoCorrida(ref List<char> jogador, int valor)
@@ -44,8 +51,9 @@ namespace blibio
             Facilitador.Pausa();
             return Resultado;
         }
-        public static void Imprimir(ref List<char> jogador, int valor)
-        {
+        public static void Imprimir(ref List<char> jogador, int valor, string nome)
+        {   
+            Console.WriteLine($"Jogador: {nome}");
             switch(valor)
             {
                 case 1:
@@ -57,12 +65,13 @@ namespace blibio
                     Console.ForegroundColor = ConsoleColor.Magenta;
                 break;
             }
+            
             foreach(char i in jogador)
             {
                 Console.Write(i);
             }
             Console.ResetColor();
-            Console.WriteLine();
+            Console.WriteLine("\n");
         }
     }
     class Facilitador
@@ -86,7 +95,7 @@ namespace blibio
         public static void Pausa()
         {
             Console.WriteLine();
-            Console.Write("Aperte ENTER para continuar");
+            Console.Write("ENTER para continuar");
             Console.ReadLine();
 
         }

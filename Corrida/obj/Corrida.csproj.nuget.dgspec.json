@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alunos\\OneDrive\\Documentos\\GitTheo\\ParaMeuCurriculo\\Corrida\\Corrida.csproj": {}
+    "D:\\GitTheo\\ParaMeuCurriculo\\Corrida\\Corrida.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alunos\\OneDrive\\Documentos\\GitTheo\\ParaMeuCurriculo\\Corrida\\Corrida.csproj": {
+    "D:\\GitTheo\\ParaMeuCurriculo\\Corrida\\Corrida.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alunos\\OneDrive\\Documentos\\GitTheo\\ParaMeuCurriculo\\Corrida\\Corrida.csproj",
+        "projectUniqueName": "D:\\GitTheo\\ParaMeuCurriculo\\Corrida\\Corrida.csproj",
         "projectName": "Corrida",
-        "projectPath": "C:\\Users\\Alunos\\OneDrive\\Documentos\\GitTheo\\ParaMeuCurriculo\\Corrida\\Corrida.csproj",
-        "packagesPath": "C:\\Users\\Alunos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alunos\\OneDrive\\Documentos\\GitTheo\\ParaMeuCurriculo\\Corrida\\obj\\",
+        "projectPath": "D:\\GitTheo\\ParaMeuCurriculo\\Corrida\\Corrida.csproj",
+        "packagesPath": "C:\\Users\\theoo\\.nuget\\packages\\",
+        "outputPath": "D:\\GitTheo\\ParaMeuCurriculo\\Corrida\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Alunos\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\theoo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
